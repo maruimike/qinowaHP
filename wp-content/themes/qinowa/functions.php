@@ -94,6 +94,16 @@ function oc_body_class($addition_class="")
 }
 
 /**
+ * Enqueue English page styles
+ */
+function qinowa_english_styles() {
+    if (is_page_template('page-english.php')) {
+        wp_enqueue_style('qinowa-english-style', get_template_directory_uri() . '/css/english.css', array(), '1.0.0');
+    }
+}
+add_action('wp_enqueue_scripts', 'qinowa_english_styles');
+
+/**
  * テンプレートで使用するタグを定義.
  */
 require get_parent_theme_file_path('/inc/template-functions.php');
