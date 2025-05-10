@@ -10,6 +10,9 @@ get_header(); ?>
             <h1 class="english-title">Welcome to Qinowa - Acupuncture & Oil Massage Salon</h1>
             
             <div class="english-section">
+                <div class="english-keyvisual">
+                    <img src="https://www.qinowa.jp/wp-content/uploads/2024/02/roppongi-keyvisual-hari2.jpg" alt="Qinowa Salon" class="fitimg">
+                </div>
                 <h2>About Qinowa</h2>
                 <p>Qinowa is a specialized acupuncture and oil massage salon for women with locations in Aoyama, Roppongi, and Ginza (Harika) in Tokyo. We combine Eastern acupuncture techniques with Western oil massage therapy to provide comprehensive care tailored to each client's needs.</p>
                 <p>Our name "Qinowa" represents our philosophy of helping you build a better daily life through small but meaningful improvements to your health and wellbeing.</p>
@@ -38,6 +41,50 @@ get_header(); ?>
             </div>
 
             <div class="english-section">
+                <h2>Treatment Experience</h2>
+                <div class="english-gallery">
+                    <div class="english-gallery-item">
+                        <img src="https://www.qinowa.jp/wp-content/uploads/2024/02/roppongi-hari1-scaled.jpg" alt="Consultation" class="fitimg">
+                        <p>We begin with a thorough consultation to understand your specific needs and concerns.</p>
+                    </div>
+                    <div class="english-gallery-item">
+                        <img src="https://www.qinowa.jp/wp-content/uploads/2024/02/roppongi-hari2.jpg" alt="Acupuncture Treatment" class="fitimg">
+                        <p>Our acupuncture treatments provide gentle stimulation combined with massage for maximum effectiveness.</p>
+                    </div>
+                    <div class="english-gallery-item">
+                        <img src="https://www.qinowa.jp/wp-content/uploads/2024/02/roppongi-hari3-scaled.jpg" alt="Professional Care" class="fitimg">
+                        <p>All our practitioners are female and hold national certifications for your peace of mind.</p>
+                    </div>
+                    <div class="english-gallery-item">
+                        <img src="https://www.qinowa.jp/wp-content/uploads/2024/02/roppongi-hari4.jpeg" alt="Hygienic Practices" class="fitimg">
+                        <p>We use disposable needles and maintain the highest standards of hygiene.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="english-section">
+                <h2>Our Salon</h2>
+                <div class="english-gallery">
+                    <div class="english-gallery-item">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/salon/roppongi/interior01.jpg" alt="Reception" class="fitimg">
+                        <p>Our appointment-based system ensures you'll be guided to your room without waiting.</p>
+                    </div>
+                    <div class="english-gallery-item">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/salon/roppongi/interior02.jpg" alt="Bright Living Area" class="fitimg">
+                        <p>The second floor features a bright, spacious living area filled with natural light.</p>
+                    </div>
+                    <div class="english-gallery-item">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/salon/roppongi/interior03.jpg" alt="Private Treatment Room" class="fitimg">
+                        <p>Consultation, treatment, and payment are all completed in your private room.</p>
+                    </div>
+                    <div class="english-gallery-item">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/salon/roppongi/interior04.jpg" alt="Foot Bath" class="fitimg">
+                        <p>Some rooms include a relaxing foot bath to enhance your treatment experience.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="english-section">
                 <h2>Our Locations</h2>
                 
                 <div class="english-location">
@@ -50,10 +97,14 @@ get_header(); ?>
                 
                 <div class="english-location">
                     <h3>Roppongi Qinowa</h3>
+                    <div class="english-location-image">
+                        <img src="https://www.qinowa.jp/wp-content/uploads/2024/02/ropponngi_message.png" alt="Roppongi Qinowa" class="fitimg">
+                    </div>
                     <p><strong>Address:</strong> 7-11-24 Roppongi, Minato-ku, Tokyo 106-0032</p>
                     <p><strong>Hours:</strong> Weekdays 11:00-22:00, Weekends/Holidays 10:00-21:00</p>
                     <p><strong>Closed:</strong> Tuesdays</p>
                     <p><strong>Access:</strong> 5 minutes from Roppongi Station, 6 minutes from Nogizaka Station</p>
+                    <p>Our Roppongi location is a hidden sanctuary in a quiet residential area near Tokyo Midtown, perfect for relaxing after work or shopping.</p>
                 </div>
             </div>
 
